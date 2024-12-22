@@ -14,8 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/landing-page', function () {
     return view('User/landing-page');
+});
+Route::get('/login', function () {
+    return view('User/login');
+});
+Route::get('/register', function () {
+    return view('User/register');
+});
+Route::get('/dashboard-user', function () {
+    return view('User/dashboard');
+});
+Route::get('/data-user', function () {
+    return view('User/form-data-diri');
 });

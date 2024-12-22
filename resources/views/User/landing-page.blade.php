@@ -53,7 +53,7 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Memulai</a>
+            <a class="btn-getstarted flex-md-shrink-0" href="{{ url('login') }}">Memulai</a>
 
         </div>
     </header>
@@ -102,7 +102,7 @@
                                 setiap tingkat.
                             </p>
                             <div class="text-center text-lg-start">
-                                <a href="#"
+                                <a href="{{ url('login') }}"
                                     class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                                     <span>Daftar Rekrutmen Sekarang </span>
                                     <i class="bi bi-arrow-right"></i>
@@ -292,7 +292,7 @@
 
 
 
-        <div class="container footer-top">
+        <!-- <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <a href="index.html" class="d-flex align-items-center">
@@ -338,7 +338,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
         <div class="container copyright text-center mt-4">
             <p>© <span>Copyright</span> <strong class="px-1 sitename">FlexStart</strong> <span>All Rights
